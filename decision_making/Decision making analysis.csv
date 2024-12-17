@@ -1,0 +1,171 @@
+Decision analysis;Category;Domain;Item
+Characteristics;Action Type;Air Traffic;Preventive or corrective 
+Characteristics;Action Type;Electricity;Preventive or corrective 
+Characteristics;Action Type;Railway;Preventive (operational adjustments) 
+Characteristics;Implementation;Air Traffic;Planed or real-time 
+Characteristics;Implementation;Electricity;Planed or real-time 
+Characteristics;Implementation;Railway;Real-time
+Characteristics;Size of action space;Air Traffic;Large and mixed action space
+Characteristics;Size of action space;Electricity;Large and mixed action space
+Characteristics;Size of action space;Railway;Large and mixed action space
+Characteristics;Time Constraints;Air Traffic;Strategic planning
+Characteristics;Time Constraints;Air Traffic;Operational adjustments
+Characteristics;Time Constraints;Air Traffic;Unexpected conditions
+Characteristics;Time Constraints;Air Traffic;Pre-tactical 
+Characteristics;Time Constraints;Air Traffic;Tactical
+Characteristics;Time Constraints;Electricity;Last Time To Decide (LTTD)
+Characteristics;Time Constraints;Railway;Emergency Responses
+Characteristics;Time Constraints;Railway;Operational Adjustments
+Characteristics;Time Constraints;Railway;Maintenance Scheduling
+Characteristics;Time Constraints;Railway;Strategic Planning
+Characteristics;Time step;Air Traffic;Real-time to medium-term
+Characteristics;Time step;Electricity;Real-time to long-term
+Characteristics;Time step;Railway;Real-time to long-term
+Characteristics;Trade-offs;Air Traffic;Capacity versus Efficiency
+Characteristics;Trade-offs;Electricity;Risk versus consequences 
+Characteristics;Trade-offs;Railway;Safety versus efficiency
+Characteristics;Trade-offs;Railway;Cost versus innovation
+Characteristics;Trade-offs;Railway;Capacity versus quality of Service
+Characteristics;Trade-offs;Railway;Operational flexibility versus standardization
+Context;Constraints;Air Traffic;Network capacity 
+Context;Constraints;Air Traffic;Military area activation
+Context;Constraints;Air Traffic;Adverse weather or disruptive events
+Context;Constraints;Air Traffic;Separations 
+Context;Constraints;Air Traffic;Sectorization 
+Context;Constraints;Air Traffic;Staff workload
+Context;Constraints;Electricity;Exceeding network capacity 
+Context;Constraints;Railway;Train Frequency and Schedule Constraints
+Context;Constraints;Railway;Operational Strategies
+Context;Constraints;Railway;Human Factors
+Context;Forecasting;Air Traffic;Military airspace activations
+Context;Forecasting;Air Traffic;Weather condition
+Context;Forecasting;Air Traffic;Staff shortages
+Context;Forecasting;Air Traffic;Scheduled maintenance of equipment
+Context;Forecasting;Electricity;Transit flows 
+Context;Forecasting;Electricity;Local generation or consumption
+Context;Forecasting;Electricity;Outage risk
+Context;Forecasting;Electricity;Topology
+Context;Forecasting;Railway;Passenger and Freight Demand
+Context;Forecasting;Railway;Traffic Flow and Congestion
+Context;Forecasting;Railway;Weather Impact 
+Context;Forecasting;Railway;Infrastructure Failure Risks
+Context;Forecasting;Railway;Operational Delays
+Context;Network capacity;Air Traffic;Area 
+Context;Network capacity;Air Traffic;Route structure
+Context;Network capacity;Air Traffic;Aeronautical Systems and Equipment availability
+Context;Network capacity;Air Traffic;Demand 
+Context;Network capacity;Air Traffic;Airport Infrastructure
+Context;Network capacity;Air Traffic;Staff availability
+Context;Network capacity;Electricity;Capacity of transmission lines
+Context;Network capacity;Railway;Train Frequency and Schedule
+Context;Network capacity;Railway;Operational Strategies
+Context;Operators;Air Traffic;One or multiple operators
+Context;Operators;Electricity;Multiple operators
+Context;Operators;Railway;Multiple operators
+Context;Observations;Air Traffic;Information from different platforms
+Context;Observations;Air Traffic;External events
+Context;Observations;Electricity;Power Grid State
+Context;Observations;Electricity;Availability of actions
+Context;Observations;Electricity;External context
+Context;Observations;Electricity;Wheather conditions
+Context;Observations;Railway;Infrastructure Condition
+Context;Observations;Railway;Weather Conditions
+Context;Observations;Railway;Train Status and Performance
+Context;Observations;Railway;Signal and Control System Status
+Context;Observations;Railway;Traffic Flow and Congestion
+Context;Observations;Railway;External Events
+Context;Possible Events;Air Traffic;Partial airspace closure
+Context;Possible Events;Air Traffic;Operational disruptions 
+Context;Possible Events;Air Traffic;Adverse Weather
+Context;Possible Events;Air Traffic;Sector Capacity overload
+Context;Possible Events;Air Traffic;Cybersecurity incidents
+Context;Possible Events;Air Traffic;Accidents and emergencies
+Context;Possible Events;Air Traffic;Regional or global health emergencies
+Context;Possible Events;Electricity;Outage of a grid element
+Context;Possible Events;Electricity;Differences between forecasted flows and real flows
+Context;Possible Events;Railway;Technical Failures
+Context;Possible Events;Railway;Environmental Conditions
+Context;Possible Events;Railway;Accidents and Emergencies
+Context;Possible Events;Railway;Operational Disruptions
+Context;Possible Events;Railway;Health Emergencies
+Context;Uncertainty;Air Traffic;Weather and Environmental Conditions
+Context;Uncertainty;Air Traffic;Technical Failures
+Context;Uncertainty;Air Traffic;Human Factors 
+Context;Uncertainty;Air Traffic;Cybersecurity Threats
+Context;Uncertainty;Electricity;Transit flows
+Context;Uncertainty;Electricity;Remedial action availability
+Context;Uncertainty;Electricity;Maintenance operations
+Context;Uncertainty;Electricity;Outage planning
+Context;Uncertainty;Railway;Infrastructure Repairs and Upgrades
+Context;Uncertainty;Railway;Weather and Environmental Conditions
+Context;Uncertainty;Railway;Technical Failures 
+Context;Uncertainty;Railway;Human Factors
+Context;Uncertainty;Railway;Passenger and Freight Demand
+Evaluation (KPIs);Cognitive load;Air Traffic;Workload perception
+Evaluation (KPIs);Cognitive load;Air Traffic;Human Response Time
+Evaluation (KPIs);Cognitive load;Electricity;Workload
+Evaluation (KPIs);Cognitive load;Electricity;Assistant disturbance
+Evaluation (KPIs);Cognitive load;Railway;Human Information Processing
+Evaluation (KPIs);Efficiency of combined human-AI performance;Electricity;Total decision time
+Evaluation (KPIs);Efficiency of combined human-AI performance;Electricity;Ability to anticipate
+Evaluation (KPIs);Efficiency of combined human-AI performance;Railway;Response time
+Evaluation (KPIs);Efficiency of combined human-AI performance;Railway;Punctuality
+Evaluation (KPIs);Efficiency of combined human-AI performance;Railway;Ability to anticipate
+Evaluation (KPIs);Human-AI interaction;Air Traffic;AI co learning capability
+Evaluation (KPIs);Human-AI interaction;Electricity;Human control and autonomy over the process
+Evaluation (KPIs);Human-AI interaction;Electricity;Human learning
+Evaluation (KPIs);Human-AI interaction;Electricity;Decision support for the human operator
+Evaluation (KPIs);Human-AI interaction;Railway;Human control and autonomy over the process
+Evaluation (KPIs);Human-AI interaction;Railway;Human learning
+Evaluation (KPIs);Human-AI interaction;Railway;Decision support for the human operator
+Evaluation (KPIs);Quality of AI-based solutions perceived by human operators;Air Traffic;Prompt demand rate
+Evaluation (KPIs);Quality of AI-based solutions perceived by human operators;Air Traffic;Significance of human revisions
+Evaluation (KPIs);Quality of AI-based solutions perceived by human operators;Air Traffic;Efficiency score
+Evaluation (KPIs);Quality of AI-based solutions perceived by human operators;Air Traffic;Acceptance score
+Evaluation (KPIs);Quality of AI-based solutions perceived by human operators;Air Traffic;Agreement score
+Evaluation (KPIs);Quality of AI-based solutions perceived by human operators;Air Traffic;Decision Support satisfaction
+Evaluation (KPIs);Quality of AI-based solutions perceived by human operators;Electricity;Assistant relevance
+Evaluation (KPIs);Quality of AI-based solutions perceived by human operators;Electricity;Situation awareness
+Evaluation (KPIs);Quality of AI-based solutions perceived by human operators;Railway;Acceptance score
+Evaluation (KPIs);Quality of AI-based solutions perceived by human operators;Railway;Acceptance
+Evaluation (KPIs);Quality of AI-based solutions perceived by human operators;Railway;Assistant relevance
+Evaluation (KPIs);Quality of AI-based solutions perceived by human operators;Railway;Comprehensibility 
+Evaluation (KPIs);Quality of AI-based solutions perceived by human operators;Railway;Situation awareness
+Evaluation (KPIs);Robustness;Air Traffic;AI prediction robustness
+Evaluation (KPIs);Robustness;Electricity;Technical robustness to real-world imperfections
+Evaluation (KPIs);Robustness;Electricity;Resilience to real-world imperfections
+Evaluation (KPIs);Robustness;Electricity;Transferability across fidelity levels
+Evaluation (KPIs);Robustness;Electricity;Generalization to different grids
+Evaluation (KPIs);Technical quality of AI-based solutions;Air Traffic;Reduction in Delays
+Evaluation (KPIs);Technical quality of AI-based solutions;Electricity;Assistant self-awareness
+Evaluation (KPIs);Technical quality of AI-based solutions;Electricity;Total operational cost
+Evaluation (KPIs);Technical quality of AI-based solutions;Electricity;Network utilization
+Evaluation (KPIs);Technical quality of AI-based solutions;Electricity;Topological action complexity
+Evaluation (KPIs);Technical quality of AI-based solutions;Electricity;Assistant alert accuracy
+Evaluation (KPIs);Technical quality of AI-based solutions;Electricity;Action recommendation selectivity
+Evaluation (KPIs);Technical quality of AI-based solutions;Electricity;Carbon intensity
+Evaluation (KPIs);Technical quality of AI-based solutions;Railway;Response time
+Evaluation (KPIs);Technical quality of AI-based solutions;Railway;Punctuality
+Evaluation (KPIs);Technical quality of AI-based solutions;Railway;Delay Reduction Efficiency
+Evaluation (KPIs);Technical quality of AI-based solutions;Railway;Proactiveness
+Evaluation (KPIs);Trustworthiness;Air Traffic;System Reliability
+Evaluation (KPIs);Trustworthiness;Air Traffic;Trust in AI solutions score
+Evaluation (KPIs);Trustworthiness;Electricity;Trust towards the AI System
+Evaluation (KPIs);Trustworthiness;Electricity;Human motivation
+Evaluation (KPIs);Trustworthiness;Railway;Trust towards the AI System
+Evaluation (KPIs);Trustworthiness;Railway;Human motivation
+Impacts;Lasting Effects;Air Traffic;Bottleneck issues
+Impacts;Lasting Effects;Air Traffic;Punctuality
+Impacts;Lasting Effects;Electricity;Transit flows return in their acceptable limits
+Impacts;Lasting Effects;Electricity;Congestion on other parts of the neighboring grid
+Impacts;Lasting Effects;Railway;Operational Efficiency
+Impacts;Lasting Effects;Railway;Safety Enhancements
+Impacts;Lasting Effects;Railway;Infrastructure Resilience
+Impacts;Lasting Effects;Railway;Customer Satisfaction
+Impacts;Recovery time;Air Traffic;Depends on the nature of the disruption
+Impacts;Recovery time;Electricity;Actions can be reverted in a couple of hours
+Impacts;Recovery time;Railway;Can vary significantly, depends on several factors
+Impacts;Lasting Effects;Electricity;Remedial action unavailable for other issues
+Impacts;Lasting Effects;Electricity;Damage to grid elements
+Impacts;Lasting Effects;Electricity;Inability to perform planned outage 
+Impacts;Lasting Effects;Electricity;Transit flows exceeding admissible limits 
